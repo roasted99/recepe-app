@@ -4,11 +4,9 @@ Link
 
 const HomePage = () => {
   return (
-  <div>
-   <h1>Find the right recipe for you!</h1>
-
-   <h1>About Dish Discovery</h1>
-      <p>
+  <div className="px-6 py-3">
+   <h1 className="text-6xl">Find the right recipe for you!</h1>
+      <p className="py-6">
         At Dish Discovery, we believe that exploring new flavors and
         experiencing diverse culinary delights is an exciting journey for food
         enthusiasts and home cooks alike. Our recipe app is designed to be your
