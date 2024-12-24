@@ -17,6 +17,7 @@ async function fetchRecipes() {
         })
 
         await new Promise((resolve) => setTimeout(resolve, 1000))
+
         const recepies = response.data.recipes;
         return recepies;
   } catch (error) {
